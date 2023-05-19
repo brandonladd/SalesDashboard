@@ -15,7 +15,7 @@ Sales Dashboard is a web application written in Python that provides an interact
 - Install Streamlit (https://streamlit.io/)
 - Download (`super.xlsx`) from the Github repository by clicking on it, then clicking 'view raw' and downloading the file.
 - Clone the repository to your local machine.
-- Install the necessary dependencies by running the commands `pip install pandas' 'pip install plotly' 'pip install streamlit' 'pip install openpyxl'
+- Install the necessary dependencies by running the commands `pip install pandas' 'pip install plotly-express' 'pip install streamlit' 'pip install openpyxl'
 - Ensure that you have the original Excel file (`super.xlsx`) used for the project available on your local machine. This can be found for download in the github repository.
 - Open the `main.py` file in a text editor.
 - Locate the `excel_sheet_cache` function in the code.
