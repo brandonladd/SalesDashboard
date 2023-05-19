@@ -1,6 +1,8 @@
 # Interactive Sales Dashboard
 Sales Dashboard is a web application written in Python that provides an interactive and visually appealing way to analyze sales data from an Excel file. It leverages the Streamlit API to display data in the form of graphs, charts, and tables, making it easier for users to understand and interpret the information for more informed business decisions.
 
+![dashgiffy](https://github.com/brandonladd/SalesDashboard/assets/124627243/4062a077-8663-49d9-9852-6650f9c1df8f)
+
 ## Features
 - Visual representation of sales data through graphs, charts, and tables.
 - Key Performance Indicators (KPIs) displayed at the top of the dashboard.
