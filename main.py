@@ -196,6 +196,7 @@ else:
 
     highest_profit_state = selected.groupby("State").sum().sort_values("Profit", ascending=False).head(10).reset_index()
     highest_profit_state.index = highest_profit_state.index + 1
+    highest_profit_state["Profit"] = highest_profit_state["Profit"].apply(lambda x: "{:.2f}".format(x))
     st.subheader("Highest Profiting States")
     st.table(highest_profit_state[["State", "Profit"]])
 
@@ -203,6 +204,7 @@ else:
 
     total_sales_by_region = selected.groupby("Region").sum().sort_values("Sales", ascending=False).reset_index()
     total_sales_by_region.index = total_sales_by_region.index + 1
+    total_sales_by_region["Sales"] = total_sales_by_region["Sales"].apply(lambda x: "{:.2f}".format(x))
     st.subheader("Total Sales by Region")
     st.table(total_sales_by_region[["Region", "Sales"]])
 
