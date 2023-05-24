@@ -2,6 +2,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+
+
 # SET PAGE CONFIGURATION:
 st.set_page_config(page_title="Sales Dashboard",
                    page_icon=":balloon:",
@@ -173,7 +175,8 @@ else:
     pie_chart_figure.update_layout(
         plot_bgcolor="rgba(0,0,0,0)",
         legend=dict(
-            bgcolor="Blue"
+            bgcolor="rgba(0,0,0,0)",
+            bordercolor="rgba(0,0,0,0)"
         ),
         title={
             'text': '<b>Sales by Region</b>',
@@ -202,3 +205,5 @@ else:
     total_sales_by_region.index = total_sales_by_region.index + 1
     st.subheader("Total Sales by Region")
     st.table(total_sales_by_region[["Region", "Sales"]])
+
+
