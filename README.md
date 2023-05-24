@@ -9,6 +9,7 @@ Sales Dashboard is a web application written in Python that provides an interact
 - Filter functionality to select regions, states, and categories for data analysis.
 - Calculation of important metrics such as total sales, total profit, average profit, highest and lowest profits, average sales, and more.
 - Dynamic updates to the displayed data based on user-selected filters.
+- Works on Mac, Linux, and Windows.
 
 ## Installation
 - Install Python (https://www.python.org/)
@@ -26,6 +27,7 @@ Sales Dashboard is a web application written in Python that provides an interact
 - Explore the dashboard by interacting with the graphs, charts, and tables.
 - Use the sidebar filters to select regions, states, and categories for data analysis.
 - The dashboard will dynamically update the displayed data based on your filter selections.
+- To end the streamlit session, simply press Ctrl + C with the command line interface open
 
 ## Dependencies
 This program relies on the following dependencies:
@@ -38,6 +40,16 @@ This program relies on the following dependencies:
 - Add more interactive features such as drill-down functionality and data filtering options.
 - Improve the user interface and visualizations for better data representation.
 
+## Works Cited
+- The video used for inspiration: https://www.youtube.com/watch?v=Sb0A9i6d320&ab_channel=CodingIsFun
+- Used streamlit's website for almost everything: https://docs.streamlit.io/
+- I also used plotly's website, mainly for the pie chart: https://plotly.com/python/graphing-multiple-chart-types/  and also https://plotly.com/python/templates/
+- This was used to help edit the legend transparency/color: https://www.geeksforgeeks.org/python-plotly-how-to-customize-legend/#
+- For misc. of course I referenced the almighty: https://stackoverflow.com/
+- For the dataset, I found it at this website: https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls
+
+## Dataset Info
+- This dataset is an excel sheet full of information from a national Superstore that sells Furniture, Office Supplies, and Technology. It is significant because my app can leverage this information to help a business owner make proper decisions based of visual representations of said data.
 
 
 
