@@ -51,5 +51,10 @@ This program relies on the following dependencies:
 ## Dataset Info
 - This dataset is an excel sheet full of information from a national Superstore that sells Furniture, Office Supplies, and Technology. It is significant because my app can leverage this information to help a business owner make proper decisions based of visual representations of said data.
 
+## Possible "datetime" error
+- If you see this error:
 
+![datetimeerror](https://github.com/brandonladd/SalesDashboard/assets/124627243/053952f9-dcba-4a1f-9dfb-dcf25c61325f)
 
+- Go into terminal or command prompt
+- type: pip uninstall pandas, pip install pandas==1.5.0
